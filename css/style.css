@@ -485,6 +485,9 @@ template {
   .container {
     max-width: 760px;
   }
+  .container__list {
+    max-width: 673px;
+  }
   .logo {
     width: 132px;
   }
