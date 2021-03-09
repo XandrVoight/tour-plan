@@ -494,7 +494,7 @@ template {
   line-height: 13px;
 }
 
-.breadcramb-list__item::not(:last-child)::after {
+.breadcramb-list__item:not(:last-child)::after {
   content: '/';
   margin-right: 4px;
 }
@@ -586,7 +586,15 @@ template {
 
 .rating__counter {
   font-size: 14px;
+  font-weight: 700;
   line-height: 18px;
+}
+
+.rating__counter--small-size {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 13px;
+  text-align: left;
 }
 
 @media (max-width: 1200px) {
