@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Tour Plan - Hotels booking</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -115,7 +116,36 @@
             </span>
           </div>
         </div>
+        <div class="hotel-grid">
+          <!-- Slider main container -->
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="img/slide/slide1.jpg" alt="slide1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slide/slide2.jpg" alt="slide2" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slide/slide3.jpg" alt="slide3" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slide/slide4.jpeg" alt="slide4" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slide/slide5.jpeg" alt="slide5" />
+              </div>
+              <!-- If we need navigation buttons -->
+            </div>
+            <button class="slider-button slider-button--prev"></button>
+            <button class="slider-button slider-button--next"></button>
+          </div>
+        </div>
       </div>
     </section>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
