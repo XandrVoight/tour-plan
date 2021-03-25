@@ -120,56 +120,57 @@
         </div>
         <!--/.hotel-info-->
         <div class="hotel-grid">
-          <div class="slider hotel__slider">
-            <!-- Slider main container -->
-            <div class="swiper-container">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-slide__image"
-                    src="img/slide/slide1.jpg"
-                    alt="slide1"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-slide__image"
-                    src="img/slide/slide2.jpg"
-                    alt="slide2"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-slide__image"
-                    src="img/slide/slide3.jpg"
-                    alt="slide3"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-slide__image"
-                    src="img/slide/slide4.jpeg"
-                    alt="slide4"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-slide__image"
-                    src="img/slide/slide5.jpeg"
-                    alt="slide5"
-                  />
-                </div>
-                <!-- If we need navigation buttons -->
+          <!-- Slider main container -->
+          <div class="swiper-container hotel-slider hotel__slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  class="swiper-slide__image"
+                  src="img/slide/slide1.jpg"
+                  alt="slide1"
+                />
               </div>
-              <!--/.swiper-wrapper-->
-              <button class="slider-button slider-button--prev"></button>
-              <button class="slider-button slider-button--next"></button>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  class="swiper-slide__image"
+                  src="img/slide/slide2.jpg"
+                  alt="slide2"
+                />
+              </div>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  class="swiper-slide__image"
+                  src="img/slide/slide3.jpg"
+                  alt="slide3"
+                />
+              </div>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  class="swiper-slide__image"
+                  src="img/slide/slide4.jpeg"
+                  alt="slide4"
+                />
+              </div>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  class="swiper-slide__image"
+                  src="img/slide/slide5.jpeg"
+                  alt="slide5"
+                />
+              </div>
+              <!-- If we need navigation buttons -->
             </div>
-            <!--/.swiper-container-->
+            <!--/.swiper-wrapper-->
+            <button
+              class="hotel-slider__button hotel-slider__button--prev"
+            ></button>
+            <button
+              class="hotel-slider__button hotel-slider__button--next"
+            ></button>
           </div>
-          <!--/.slider-->
+          <!--/.swiper-container-->
           <div class="hotel-right">
             <div class="booking">
               <div class="booking__info">
@@ -230,6 +231,154 @@
       <!--/.conatiner-->
     </section>
     <!--/.hotel-->
+    <section class="newsletter">
+      <div class="newsletter-wrapper">
+        <h2 class="newsletter-title newsletter__title">
+          subscribe to our
+          <span class="newsletter-title__strong">Newsletter</span>
+        </h2>
+        <form action="#" class="subscribe newsletter__subscribe">
+          <input
+            type="text"
+            class="subscribe__input"
+            placeholder="Your email address"
+          />
+          <button class="subscribe__button">Send</button>
+        </form>
+      </div>
+      <!-- /.newsletter-wrapper -->
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title">What people think about us</h2>
+        <div class="swiper-container reviews-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="img/reviews-avatar.jpg"
+                    alt="Photo: Megan Fox"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Megan Fox</h3>
+                  <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                  <div class="reviews-slider__rating">
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                  </div>
+                  <!-- /.reviews-slider__rating -->
+                </div>
+                <!-- /.reviews-slider__profile -->
+                <p class="reviews-slider__text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend.
+                </p>
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="img/reviews-avatar-2.jpg"
+                    alt="Photo: Chou Yun Quat"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Chou Yun Quat</h3>
+                  <span class="reviews-slider__date">Stayed 10 Dec, 2019</span>
+                  <div class="reviews-slider__rating">
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                  </div>
+                  <!-- /.reviews-slider__rating -->
+                </div>
+                <!-- /.reviews-slider__profile -->
+                <p class="reviews-slider__text">
+                  Great staff, very helpful and friendly receptionists. The
+                  hotel is small but very cozy. There is a parking lot (you need
+                  to enter the gate under the arch). Breakfast: it is convenient
+                  to bring it to your room. But the breakfast is very
+                  monotonous: an egg, a slice of apple, yogurt, a packet of
+                  juice (not tasty), a sandwich and a muffin. I would like a
+                  little more varied, after 2 days this breakfast is very
+                  boring. They bring breakfast until 10 am, this time was very
+                  suitable for us. Great location. To the subway 10 minutes
+                  along a busy street. There is everything you need nearby. The
+                  room itself is clean, everything worked properly, there are no
+                  questions about the number. The only thing is that if the
+                  windows face the road, it will be noisy. For people with
+                  sensitive sleep, I would recommend rooms on the opposite side
+                  of the road.
+                </p>
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="img/reviews-avatar-3.jpg"
+                    alt="Photo: Andy Dupree"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Andy Dupree</h3>
+                  <span class="reviews-slider__date">Stayed 20 Jan, 2020</span>
+                  <div class="reviews-slider__rating">
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                    <img src="img/star.svg" alt="star" />
+                  </div>
+                  <!-- /.reviews-slider__rating -->
+                </div>
+                <!-- /.reviews-slider__profile -->
+                <p class="reviews-slider__text">
+                  The hotel is located near the Marjinashvili station. If you
+                  walk from the metro station in the direction of the hotel, you
+                  can see many cafes-restaurants, small grocery stores,
+                  pharmacies and various other interesting or (not so) things
+                  ... The hotel sign is not very remarkable, but you will not
+                  pass by. We rested from January 20 to January 30, 2020. When we
+                  checked in, they upgraded the room category and gave us a room
+                  more than we paid for (we paid for economy, we were given a
+                  standard). It was cool in the room, but the air conditioner
+                  working for heating saved, we turned it on when we returned to
+                  the room in the evening after a walk.
+                </p>
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+          </div>
+          <!-- /.swiper-wrapper -->
+          <button
+            class="reviews-slider__button reviews-slider__button--prev"
+          ></button>
+          <button
+            class="reviews-slider__button reviews-slider__button--next"
+          ></button>
+        </div>
+        <!-- /.reviews-slider -->
+      </div>
+      <!-- /.container -->
+    </section>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
